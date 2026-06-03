@@ -12,9 +12,13 @@ HandTalk-IA is a real-time sign language translator that uses a webcam, MediaPip
 
 ## Requirements
 
-Install the Python dependencies listed in `requirement.txt`:
+This project requires Python 3.11.
+
+Install the Python dependencies listed in `requirement.txt` after creating and activating a virtual environment:
 
 ```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
 pip install -r requirement.txt
 ```
 
